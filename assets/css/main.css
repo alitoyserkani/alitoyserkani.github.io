@@ -2354,8 +2354,8 @@ input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,
 .archive__subtitle{
     margin:1.414em 0 0;
     padding-bottom:0.5em;
-    font-size:1em;
-    color:#9ba1a6;
+    font-size:1.5em;
+    color:#111414;
     border-bottom:1px solid #f2f3f3
 }
 .archive__subtitle+.list__item .archive__item-title{
@@ -5315,4 +5315,107 @@ img.mfp-img{
         display:none
     }
 }
+
+
+/* SECOND HALF */
+
+.panel-heading .accordion-toggle:after {
+    /* symbol for "opening" panels */
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+    content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    float: right;        /* adjust as needed */
+    color: #990099;         /* adjust as needed */
+}
+
+.panel-heading .accordion-toggle:hover {
+    color: #990099;
+    text-decoration: underline;
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+}
+
+.panel-heading {
+    /*border-bottom: 1px solid #990099;*/
+}
+
+.panel-title {
+    font-size: 20px;
+}
+
+.panel-body {
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    font-size: 16px;
+    border-top: 1px solid #990099 !important;
+    border-bottom: 1px solid #990099 !important;
+}
+
+.panel-no-border {
+    border: 0;
+    /*border-bottom: 1px solid #990099 !important;*/
+    border-radius: 0 !important;
+    box-shadow: none;
+    padding-left:0;
+    padding-right:0;
+}
+
+.panel-no-border:hover {
+    /*border-bottom: 1px solid #990099 !important;*/
+}
+
+.panel-no-border .accordion-toggle:after {
+    border-bottom: 0px !important;
+}
+
+.panel-teaser {
+    border-bottom: 0px !important;
+    font-style: italic;
+}
+
+.panel-full-body {
+    border-top: 0px !important;
+}
+
+a.accordion-toggle{
+    text-decoration: none;
+}
+
+.project-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-img-md {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    margin-bottom: 15px;
+}
+
+.project-img-lg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-video {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-logo-sm {
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 35px;
+}
+
+.project-section {
+    padding: 0px;
+}
+
  

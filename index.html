@@ -12,13 +12,25 @@
       <meta property="og:image" content="http://alitoyserkani.me/images/printer-printing.jpg">
       <link rel="next" href="page2/index.html">
       <script type="application/ld+json"> { "@context" : "http://schema.org", "@type" : "Person", "name" : "Ali Toyserkani", "url" : "http://alitoyserkani.me", "sameAs" : null } </script> <!-- end SEO -->
-      <link href="feed.xml" type="application/atom+xml" rel="alternate" title="Ali Toyserkani - Personal Website Feed">
       <!-- http://t.co/dKP3o1e -->
       <meta name="HandheldFriendly" content="True">
       <meta name="MobileOptimized" content="320">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> <!-- For all browsers -->
+
       <link rel="stylesheet" href="assets/css/main.css">
+
+      <!-- Bootstrap Core CSS -->
+      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+      <!-- Custom Fonts -->
+      <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+      <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+      <!-- Plugin CSS -->
+      <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
       <meta http-equiv="cleartype" content="on">
       <!-- start custom head snippets --> <!-- insert favicons. use http://realfavicongenerator.net/ --> <!-- end custom head snippets -->
    </head>
@@ -34,9 +46,9 @@
                      <div class="navicon"></div>
                   </button>
                   <ul class="visible-links">
-                     <li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Ali Toyserkani - Personal Website</a></li>
-                     <li class="masthead__menu-item"><a href="about/index.html">About Me</a></li>
-                     <li class="masthead__menu-item"><a href="posts/index.html">Blog</a></li>
+                     <li class="masthead__menu-item masthead__menu-item--lg"><a href="index.html">Ali Toyserkani - Portfolio</a></li>
+                     <!-- <li class="masthead__menu-item"><a href="about/index.html">About Me</a></li>
+                     <li class="masthead__menu-item"><a href="posts/index.html">Blog</a></li> -->
                   </ul>
                   <ul class="hidden-links hidden"></ul>
                </nav>
@@ -67,38 +79,15 @@
 
          <!-- RECENT POSTS -->
          <div class="archive">
-            <h1 class="page__title"></h1>
+            <!-- <h1 class="page__title"></h1> -->
             <h3 class="archive__subtitle">Experience</h3>
+               <div class="list__item">
+                  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+                     <h3 class="archive__item-title" itemprop="headline"> <a href="https://level5.lyft.com/" rel="permalink">Lyft Level 5</a></h3>
+                     <p class="archive__item-excerpt" itemprop="description">First project of the Udacity Self Driving Car NanoDegree</p>
+                  </article>
+               </div>
             <h3 class="archive__subtitle">Projects</h3>
-            <!-- <div class="list__item"> -->
-               <!-- <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork"> -->
-<!--                   <h2 class="archive__item-title" itemprop="headline"> <a href="robotics/traffic-signs/index.html" rel="permalink">Traffic Sign Recognition with Tensorflow </a></h2>
-                  <p class="archive__item-excerpt" itemprop="description">Designed a CNN inspired by LeNet architecture</p>
-               </article>
-            </div>
-            <div class="list__item">
-               <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                  <h2 class="archive__item-title" itemprop="headline"> <a href="robotics/lane-detection/index.html" rel="permalink">Finding Lane Lines on the Road </a></h2>
-                  <p class="archive__item-excerpt" itemprop="description">First project of the Udacity Self Driving Car NanoDegree</p>
-               </article>
-            </div>
-            <div class="list__item">
-               <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                  <h2 class="archive__item-title" itemprop="headline"> <a href="self-driving-car/install-unity3d-ubuntu/index.html" rel="permalink">Install Unity3D in Ubuntu </a></h2>
-                  <p class="archive__item-excerpt" itemprop="description">Tested in Ubuntu 14.04</p>
-               </article>
-            </div>
-            <div class="list__item">
-               <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                  <h2 class="archive__item-title" itemprop="headline"> <a href="robotics/lookup-transform-ros/index.html" rel="permalink">How to compute frame transformations with Tf (ROS) </a></h2>
-                  <p class="archive__item-excerpt" itemprop="description">using the function lookupTransform</p>
-               </article>
-            </div>
-            <div class="list__item">
-               <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-                  <h2 class="archive__item-title" itemprop="headline"> <a href="robotics/camera-calibration-visp/index.html" rel="permalink">Intrinsic camera calibration for Nao/Romeo/Pepper with Visp </a></h2>
-                  <p class="archive__item-excerpt" itemprop="description">Intrinsic camera calibration for Nao/Romeo/Pepper with Visp.</p> -->
-               </article>
             </div>
          </div>
       </div>
